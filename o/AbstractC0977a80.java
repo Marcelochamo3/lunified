@@ -1,0 +1,16 @@
+package o;
+
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
+
+/* JADX INFO: renamed from: o.a80, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC0977a80 {
+    public static Drawable a(Resources resources, int i, Resources.Theme theme) {
+        return resources.getDrawable(i, theme);
+    }
+
+    public static Drawable b(Resources resources, int i, int i2, Resources.Theme theme) {
+        return resources.getDrawableForDensity(i, i2, theme);
+    }
+}
